@@ -26,5 +26,5 @@ web:
     - '80:80'
     - '443:443'
   volumes:
-    - ./Autolab/courses:/home/app/webapp/courses
+    - ./courses:/home/app/webapp/courses
     - ./ssl:/etc/nginx/ssl
